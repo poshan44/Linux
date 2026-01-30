@@ -46,7 +46,7 @@ This assignment was to create users and use created users to test out file acces
 sudo adduser tupo
 ```
 Image:
-![screenshot](image/step%201.png)
+![screenshot](Image/step%201.png)
 
 ## step 2: Creating user lupu using groupadd script.
 I created user lupu by using useradd command to manually define the home directory, login shell, and user group
@@ -68,7 +68,7 @@ I set a password for the user:
 sudo passwd lupu
 ```
 Image:
-![screenshot](image/step%202.png)
+![screenshot](Image/step%202.png)
 
 ## step 3: Creating system user hupu
 I created a system user named hupu with the login shell set to /bin/false to prevent interactive login
@@ -78,7 +78,7 @@ sudo useradd --system --shell /bin/false hupu
 This user is intended for system use only
 
 Image:
-![screenshot](image/step%203.png)
+![screenshot](Image/step%203.png)
 
 ## step 4: Granting sudo privileges to users
 I added tupu and lupu to the sudo group so they could have administrative privileges when needed.
@@ -93,7 +93,7 @@ groups lupu
 ```
 
 Image:
-![screenshot](image/step%204.png)
+![screenshot](Image/step%204.png)
 
 
 ## step 5: Creating shared project directory and setting permissions
@@ -119,7 +119,7 @@ ls -ld /opt/projekti
 The setgid bit makes sure that any new files or folders created inside /opt/projekti automatically belong to the projekti group.
 
 Image
-![screenshot](image/step%205.png)
+![screenshot](Image/step%205.png)
 
 ## step 6: Testing file access permissions
 I was curious about the final testing that it will work or not
@@ -132,7 +132,9 @@ touch test_tupup.txt
 ls -l
 ```
 Image
-![screenshot](image/step%206%20tupu.png)
+![screenshot](Image/step%206%20tupu.png)
+
+I forgot to take the screenshot at the exact moment when the directory was empty and the total value was 0 but I rememebr later and took the screenshot, where the total value was 4
 
 . Test as lupu
 ```bash
@@ -153,7 +155,7 @@ su - hupu
 cd /opy/projektiimage
 ```
 Image:
-![screenshot](image/Screenshot%202026-01-29%20115051.png)
+![screenshot](Image/Screenshot%202026-01-29%20115051.png)
 
 so we can see, for tupu and lupu it allow the access but for hupu it denies it which shows that our assignment is correct.
 
