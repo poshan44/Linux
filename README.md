@@ -1,3 +1,5 @@
+# ASSIGNMENT 0
+
 # Creating Ubuntu VM on Aure and SSH connection
 This is my all documentation what I did during creating ubuntu virtual machine in azure and connection with SSH
 
@@ -161,7 +163,6 @@ so we can see, for tupu and lupu it allow the access but for hupu it denies it w
 
 ## Conclusion
 This task help me to learn linux user and permission management using users, groups, sudo access, and directory permission control
-
 
 
 
