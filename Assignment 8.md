@@ -130,3 +130,7 @@ Final configuration:
 . HTTPS: Allowed
 
 . Logging: Enabled (medium)
+
+Image:
+
+![screenshot](image/firewall.png)
