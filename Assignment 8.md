@@ -133,4 +133,4 @@ Final configuration:
 
 Image:
 
-![screenshot](image/firewall.png)
+![screenshot](Image/firewall.png)
